@@ -1,0 +1,84 @@
+{
+  "product": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  },
+  "quiz": {
+    "attributes": {
+      "Soal": {
+        "appearance": ""
+      }
+    }
+  },
+  "province": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "type": {
+        "appearance": ""
+      }
+    }
+  },
+  "kabupaten": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "type": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "regency": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "province_code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "district": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "regency_code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "village": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "district_code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      }
+    }
+  }
+}

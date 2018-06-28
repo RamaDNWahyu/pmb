@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "district",
+  "info": {
+    "name": "district",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "regency_code": {
+      "type": "integer"
+    },
+    "code": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "connection": "default",
+  "info": {
+    "name": "user",
+    "description": ""
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": true,
+      "configurable": false,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "minLength": 6,
+      "configurable": false,
+      "required": true
+    },
+    "provider": {
+      "type": "string",
+      "configurable": false
+    },
+    "password": {
+      "type": "password",
+      "minLength": 6,
+      "configurable": false,
+      "private": true
+    },
+    "resetPasswordToken": {
+      "type": "string",
+      "configurable": false,
+      "private": true
+    },
+    "role": {
+      "model": "role",
+      "via": "users",
+      "plugin": "users-permissions",
+      "configurable": false
+    },
+    "no_pendaftaran": {
+      "type": "string"
+    },
+    "nama_lengkap": {
+      "type": "string"
+    },
+    "jalur": {
+      "type": "string"
+    },
+    "prodi": {
+      "type": "string"
+    },
+    "waktukuliah": {
+      "type": "string"
+    },
+    "tempatlahir": {
+      "type": "string"
+    },
+    "provinsi": {
+      "type": "string"
+    },
+    "kota": {
+      "type": "string"
+    },
+    "kecamatan": {
+      "type": "string"
+    },
+    "alamat_sekarang": {
+      "type": "string"
+    },
+    "jeniskelamin": {
+      "type": "string"
+    },
+    "warganegara": {
+      "type": "string"
+    },
+    "statusmenikah": {
+      "type": "string"
+    },
+    "goldar": {
+      "type": "string"
+    },
+    "agama": {
+      "type": "string"
+    },
+    "pembiayakuliah": {
+      "type": "string"
+    },
+    "statuskerja": {
+      "type": "string"
+    },
+    "nama_ibukandung": {
+      "type": "string"
+    },
+    "alamat": {
+      "type": "string"
+    },
+    "asal_sekolah": {
+      "type": "string"
+    },
+    "provinsi_sekolah": {
+      "type": "string"
+    },
+    "kota_sekolah": {
+      "type": "string"
+    },
+    "kode_pos": {
+      "type": "integer"
+    },
+    "no_hp": {
+      "type": "integer"
+    },
+    "whatsapp": {
+      "type": "integer"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "kartu_kk": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "tanggallahir": {
+      "type": "date"
+    }
+  },
+  "collectionName": "users-permissions_user"
+}

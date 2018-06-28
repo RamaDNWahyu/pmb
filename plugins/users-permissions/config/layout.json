@@ -1,0 +1,90 @@
+{
+  "user": {
+    "attributes": {
+      "avatar": {
+        "appearance": ""
+      },
+      "no_pendaftaran": {
+        "appearance": ""
+      },
+      "nama_lengkap": {
+        "appearance": ""
+      },
+      "jalur": {
+        "appearance": ""
+      },
+      "prodi": {
+        "appearance": ""
+      },
+      "waktukuliah": {
+        "appearance": ""
+      },
+      "tanggallahir": {
+        "appearance": ""
+      },
+      "tempatlahir": {
+        "appearance": ""
+      },
+      "provinsi": {
+        "appearance": ""
+      },
+      "kota": {
+        "appearance": ""
+      },
+      "kecamatan": {
+        "appearance": ""
+      },
+      "kode_pos": {
+        "appearance": ""
+      },
+      "alamat_sekarang": {
+        "appearance": ""
+      },
+      "jeniskelamin": {
+        "appearance": ""
+      },
+      "warganegara": {
+        "appearance": ""
+      },
+      "statuspernikahan": {
+        "appearance": ""
+      },
+      "goldar": {
+        "appearance": ""
+      },
+      "agama": {
+        "appearance": ""
+      },
+      "pembiayakuliah": {
+        "appearance": ""
+      },
+      "statuskerja": {
+        "appearance": ""
+      },
+      "nama_ibukandung": {
+        "appearance": ""
+      },
+      "alamat": {
+        "appearance": ""
+      },
+      "no_hp": {
+        "appearance": ""
+      },
+      "whatsapp": {
+        "appearance": ""
+      },
+      "asal_sekolah": {
+        "appearance": ""
+      },
+      "provinsi_sekolah": {
+        "appearance": ""
+      },
+      "kota_sekolah": {
+        "appearance": ""
+      },
+      "kartu_kk": {
+        "appearance": ""
+      }
+    }
+  }
+}

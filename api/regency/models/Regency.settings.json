@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "regency",
+  "info": {
+    "name": "regency",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "integer"
+    },
+    "province_code": {
+      "type": "integer"
+    }
+  }
+}

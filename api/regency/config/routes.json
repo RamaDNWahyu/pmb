@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/regency",
+      "handler": "Regency.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/regency/count",
+      "handler": "Regency.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/regency/:_id",
+      "handler": "Regency.findOne",
+      "config": {
+        "policies": []
+      }
+    },    
+    {
+      "method": "POST",
+      "path": "/regency",
+      "handler": "Regency.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/regency/:_id",
+      "handler": "Regency.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/regency/:_id",
+      "handler": "Regency.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "village",
+  "info": {
+    "name": "village",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "district_code": {
+      "type": "integer"
+    },
+    "code": {
+      "type": "integer"
+    }
+  }
+}
