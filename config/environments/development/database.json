@@ -5,15 +5,10 @@
       "connector": "strapi-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "127.0.0.1",
-        "port": 27017,
-        "database": "pmb1st",
-        "username": "",
-        "password": ""
+        "uri": "mongodb+srv://ranma:ranma123@pmb-dev-d5lpd.gcp.mongodb.net/pmb"
       },
       "options": {
-        "authenticationDatabase": "",
-        "ssl": false
+        "ssl": true
       }
     }
   }
