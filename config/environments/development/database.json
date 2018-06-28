@@ -5,14 +5,10 @@
       "connector": "strapi-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "pmb-dev-d5lpd.gcp.mongodb.net",
-        "port": 27017,
-        "database": "pmb",
-        "username": "ranma",
-        "password": "ranma123"
+        "uri": "mongodb+srv://ranma:ranma123@pmb-dev-d5lpd.gcp.mongodb.net/pmb"
       },
       "options": {
-        "ssl": false
+        "ssl": true
       }
     }
   }
